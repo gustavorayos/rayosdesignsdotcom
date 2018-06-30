@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rayos Web Designs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+    <link rel=icon href="https://2.bp.blogspot.com/-1mkNAJf2-sE/Wyv7VUkWBnI/AAAAAAAAL5Y/Hel0Tzc78IEOn1eU4b9aIugtdZp5h0lyQCLcBGAs/s1600/Goose_Rayos_Designs_Small_Blue_Green.png"
+    />
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--///////////////////////////-->
+    <!--Always import the following-->
+    <!--///////////////////////////-->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' />
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!--///////////////////////////-->
+    <!--///////////////////////////-->
+    <!--///////////////////////////-->
+
+
+</head>
+
+<body>
+       <!-- Navbar -->
+       <div class='w3-white'>
+            <div class='w3-gr-dark-blue' id='home'>
+              <ul class='w3-navbar w3-large navbarWidthLarge' style="padding: 0px 20px;">
+                <li class='w3-hide-large w3-opennav w3-right'>
+                  <a class='w3-large w3-hover-text-gr-green w3-text-white' href='javascript:void(0);' onclick='myFunction()' style='margin-top:20px;'
+                    title='Toggle Navigation Menu'>
+                    <div class='container' onclick='myFunction4(this)'>
+                      <div class='bar1'></div>
+                      <div class='bar2'></div>
+                      <div class='bar3'></div>
+                    </div>
+                  </a>
+                </li>
+                <li class='w3-hide-small' style='float:left;'>
+                  <a class='w3-left-align w3-padding-navbar-image-middle' href='/'>
+                    <img class="rs-right" alt='Goose Rayos Web Designs Logo' src='https://1.bp.blogspot.com/-FlInhuqZnrM/Wyv5SJtYinI/AAAAAAAAL5M/-Vz1ClmdaAwSY0F098MvZdPxsfWs7MbiQCLcBGAs/s1600/Goose_Rayos_Logo_Simple_Transparent_Green.png'
+                      style='max-width:200px;' />
+                  </a>
+                </li>
+                <li class='w3-hide-large w3-hide-medium'>
+                  <a class='w3-left-align w3-padding-navbar-image-middle' href='/'>
+                    <img class="rs-right" alt='Goose Rayos Web Designs Logo' src='https://1.bp.blogspot.com/-FlInhuqZnrM/Wyv5SJtYinI/AAAAAAAAL5M/-Vz1ClmdaAwSY0F098MvZdPxsfWs7MbiQCLcBGAs/s1600/Goose_Rayos_Logo_Simple_Transparent_Green.png'
+                      style='max-width:200px;' />
+                  </a>
+                </li>
+                <li class='w3-hide-small w3-hide-medium' style='padding-top:12px;'>
+                  <a href='contact-me.html'>
+                    <roundButton class='roundButton roundButton1 w3-gr-green w3-hover-white'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 16px;font-weight: 400;height: 100%;'>Contact</span>
+                    </roundButton>
+                  </a>
+                </li>
+                <li class='w3-hide-small w3-hide-medium'>
+                  <a class='w3-padding-navbar-items w3-hover-text-gr-green w3-text-white' href='https://blog.gooserayos.com/' style='padding-bottom:34px;'>
+                    <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Blog</span>
+                  </a>
+                </li>
+                <li class='w3-dropdown-hover w3-hide-small w3-hide-medium'>
+                  <a class='w3-padding-navbar-items w3-hover-text-gr-green w3-text-white' href='demo.html' style='padding-bottom:34px;'>
+                    <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Demos
+                      <i class='fa fa-caret-down'></i>
+                    </span>
+                  </a>
+                  <div class='w3-dropdown-content w3-white w3-text-black w3-card-4'>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='demo.html#band'>
+                      Band
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='demo.html#startup'>
+                      Startup
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='demo.html#parallax'>
+                      Parallax
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='demo.html#modal'>
+                      Modal
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='demo.html#marketing'>
+                      Marketing
+                    </a>
+                  </div>
+                </li>
+                <li class='w3-dropdown-hover w3-hide-small w3-hide-medium'>
+                  <a class='w3-padding-navbar-items w3-hover-text-gr-green w3-text-white' href='services.html' style='padding-bottom:34px;'>
+                    <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Services
+                      <i class='fa fa-caret-down'></i>
+                    </span>
+                  </a>
+                  <div class='w3-dropdown-content w3-white w3-text-black w3-card-4'>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='services.html#websitedesign'>
+                      Website Design
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='services.html#logodesign'>
+                      Logo Design
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='services.html#pricing'>
+                      Pricing
+                    </a>
+                  </div>
+                </li>
+                <li class='w3-dropdown-hover w3-hide-small w3-hide-medium'>
+                  <a class='w3-padding-navbar-items w3-hover-text-gr-green w3-text-white' href='websites.html' style='padding-bottom:34px;'>
+                    <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Projects
+                      <i class='fa fa-caret-down'></i>
+                    </span>
+                  </a>
+                  <div class='w3-dropdown-content w3-white w3-text-black w3-card-4'>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='websites.html#reviews'>
+                      Client Reviews
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='websites.html#samantharayos'>
+                      Samantha Rayos
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='websites.html#bombcityoutfitters'>
+                      Bomb City Outfitters
+                    </a>
+                  </div>
+                </li>
+                <li class='w3-dropdown-hover w3-hide-small w3-hide-medium'>
+                  <a class='w3-padding-navbar-items w3-hover-text-gr-green w3-text-white' href='about-me.html' style='padding-bottom:34px;'>
+                    <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>About
+                      <i class='fa fa-caret-down'></i>
+                    </span>
+                  </a>
+                  <div class='w3-dropdown-content w3-white w3-text-black w3-card-4'>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='about-me.html#aboutme'>
+                      About Me
+                    </a>
+                    <a class='w3-padding-large w3-hover-text-gr-green' href='about-me.html#skills'>
+                      Skills
+                    </a>
+                  </div>
+                </li>
+                <li class='w3-hide-small w3-hide-medium'>
+                  <a class='w3-padding-navbar-items w3-hover-text-gr-green w3-text-white' href='/' style='padding-bottom:34px;'>
+                    <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Home</span>
+                  </a>
+                </li>
+              </ul>
+              <!-- Navbar on small screens -->
+              <div class='w3-hide w3-hide-large' id='navDemo'>
+                <ul class='w3-navbar w3-left-align w3-white w3-text-black w3-large w3-center'>
+                  <li style='float:left;'>
+                    <a class='w3-padding-large w3-hover-text-gr-green w3-text-black' href='/'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Home</span>
+                    </a>
+                  </li>
+                  <li style='float:left;'>
+                    <a class='w3-padding-large w3-hover-text-gr-green w3-text-black' href='about-me.html'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>About</span>
+                    </a>
+                  </li>
+                  <li style='float:left;'>
+                    <a class='w3-padding-large w3-hover-text-gr-green w3-text-black' href='websites.html'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Projects</span>
+                    </a>
+                  </li>
+                  <li style='float:left;'>
+                    <a class='w3-padding-large w3-hover-text-gr-green w3-text-black' href='services.html'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Services</span>
+                    </a>
+                  </li>
+                  <li style='float:left;'>
+                    <a class='w3-padding-large w3-hover-text-gr-green w3-text-black' href='demo.html'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Demos</span>
+                    </a>
+                  </li>
+                  <li style='float:left;'>
+                    <a class='w3-padding-large w3-hover-text-gr-green w3-text-black' href='https://blog.gooserayos.com/'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Blog</span>
+                    </a>
+                  </li>
+                  <li style='float:left;'>
+                    <a class='w3-padding-large w3-hover-text-gr-green w3-text-black' href='contact-me.html'>
+                      <span style='font-family: "Nunito", sans-serif;font-size: 18px;font-weight: 400;height: 100%;'>Contact</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--End NavBar-->
+
+        <div class='bg-div-height-500-services w3-display-container' style='box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);'>
+            <div class="seventh" style="height:500px;">
+                <!--Large Screen Slider Text-->
+                <div class='w3-display-middle w3-hide-small w3-hide-medium w3-padding-medium w3-center' style="width:100%;">
+                    <p class='w3-padding-medium w3-text-white'>
+                        <span style='font-weight:bold; font-size: 60px;'>
+                            Let me create your vision.
+                        </span>
+                    </p>
+                    <!--<a href='about-me.html'>
+            <roundButton class='roundButton roundButton1 w3-gr-green w3-hover-white'>
+              About Me
+            </roundButton>
+          </a>-->
+                </div>
+                <!--Medium Screen Slider Text-->
+                <div class='w3-padding-medium w3-display-middle w3-hide-small w3-hide-large w3-center' style="width:100%;">
+                    <p class='w3-padding-medium w3-text-white'>
+                        <span style='font-weight:bold; font-size: 60px;'>
+                            Let me create your vision.
+                        </span>
+                    </p>
+                </div>
+                <!--Small Screen Slider Text-->
+                <div class='w3-padding-medium w3-display-middle w3-hide-medium w3-hide-large w3-center' style="width:100%;">
+                    <p class='w3-padding-medium w3-text-white'>
+                        <span style='font-weight:bold; font-size: 50px;'>
+                            Let me create your vision.
+                        </span>
+                    </p>
+                </div>
+                <div class='w3-display-bottommiddle w3-padding-24'>
+                    <a href='#websitedesign'>
+                        <div class='w3-btn-floating w3-white w3-animate-pulse'>
+                            <i class='w3-xlarge fa fa-arrow-down'></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <div class='w3-light-gray w3-center w3-text-charcoal-black' id='websitedesign' style='padding-bottom:32px; padding-top:48px;'>
+        <div class='rs-bottom w3-content w3-padding-medium'>
+            <h2 class='w3-padding-large' style='font-weight: bold;'>
+                Professional Website Design
+            </h2>
+            <p style='font-size: 20px;'>
+                I have a passion for designing and creating websites that are visually satisfying and useful for businesses. Website design
+                is very important to all businesses and provide customers with information, as well as a general vibe for
+                the business. The feel of a website needs to co-align with the root and heart of a business. I like to try
+                to bring out an emotion or feeling when customers visit a website. To me this is the most important aspect
+                to design. Every website I work on, I have the same goals in mind, to create the best website for that particular
+                business.
+            </p>
+        </div>
+    </div>
+
+
+
+<div class="bg-parallax3">
+    <div class='seventh w3-center w3-text-white' id='logodesign'>
+        <div class="rs-bottom" style='padding: 32px 16px;'>
+            <div class='w3-content' style='padding-bottom:16px;'>
+                <h2 class='w3-padding-large' style='font-weight: bold;'>
+                    Creative Logo Design
+                </h2>
+                <p style='font-size: 20px;'>
+                    One of the most important aspects to a business is the logo. A logo sets the tone for the rest of the design of the business.
+                    Everything from the typeface, to the color, and the imagery sets the mood for the business, and customers
+                    make a decision in a split second whether they are interested in a business based on a logo.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Pricing Section -->
+    <div class='w3-gray-gr w3-text-charcoal-black' id='pricing' style='padding-bottom:80px; padding-top:32px;'>
+        <div class='rs-bottom w3-center w3-content'>
+            <h2 class='w3-center'>
+                <span style='font-weight:bold'>
+                    Pricing
+                </span>
+            </h2>
+            <p style='font-size: 20px;'>Choose a pricing plan that fits your needs.</p>
+            <div class='w3-row-padding' style='margin-top:0px'>
+                <div class='w3-third w3-section'>
+                    <ul class='w3-ul w3-white w3-hover-shadow'>
+                        <li class='w3-charcoal-black w3-text-gray-gr w3-xlarge w3-padding-32'>Basic</li>
+                        <li class='w3-padding-16'>
+                            <b>Website</b> Design</li>
+
+                        <li class='w3-padding-16'>
+                            <b>Custom</b> Domain</li>
+                        <li class='w3-padding-16'>
+                            <b>1</b> Multisection Page </li>
+                        <li class='w3-padding-16'>
+                            <strike class='w3-opacity'>No Logo Design</strike>
+                        </li>
+                        <li class='w3-padding-16'>
+                            <strike class='w3-opacity'>No Blog Integration</strike>
+                        </li>
+
+
+                        <li class='w3-padding-16'>
+                            <h2 class='w3-wide'>$ 0</h2>
+                            <span class='w3-opacity'>per month web hosting</span>
+                        </li>
+                        <li class='w3-padding-16'>
+                            <span class='w3-opacity'>starting at</span>
+                            <h2 class='w3-wide'>
+                                <b>$ 550</b>
+                            </h2>
+
+                        </li>
+                        <li class='w3-charcoal-black w3-padding-24'>
+                            <a href='contact-me.html'>
+                                <roundButton class='roundButton roundButton1 w3-gr-green w3-hover-white w3-text-black'>
+                                    Contact Me
+                                </roundButton>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class='w3-third'>
+                    <ul class='w3-ul w3-white w3-hover-shadow'>
+                        <li class='w3-gr-green w3-text-charcoal-black w3-xlarge w3-padding-48'>Pro</li>
+                        <li class='w3-padding-16'>
+                            <b>Website</b> Design</li>
+
+                        <li class='w3-padding-16'>
+                            <b>Custom</b> Domain</li>
+                        <li class='w3-padding-16'>
+                            <b>5</b> Pages</li>
+                        <li class='w3-padding-16'>
+                            <b>Logo</b> Design</li>
+                        <li class='w3-padding-16'>
+                            <strike class='w3-opacity'>No Blog Integration</strike>
+                        </li>
+
+                        <li class='w3-padding-16'>
+                            <h2 class='w3-wide'>$ 0</h2>
+                            <span class='w3-opacity'>per month web hosting</span>
+                        </li>
+                        <li class='w3-padding-16'>
+                            <span class='w3-opacity'>starting at</span>
+                            <h2 class='w3-wide'>
+                                <strike>
+                                    <b>$ 750</b>
+                                </strike>
+                                <b>$ 600</b>
+                            </h2>
+
+                        </li>
+                        <li class='w3-charcoal-black w3-padding-24'>
+                            <a href='contact-me.html'>
+                                <roundButton class='roundButton roundButton1 w3-gr-green w3-hover-white w3-text-black'>
+                                    Contact Me
+                                </roundButton>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class='w3-third w3-section'>
+                    <ul class='w3-ul w3-white w3-hover-shadow'>
+                        <li class='w3-charcoal-black w3-text-gray-gr w3-xlarge w3-padding-32'>Premium</li>
+                        <li class='w3-padding-16'>
+                            <b>Website</b> Design</li>
+
+                        <li class='w3-padding-16'>
+                            <b>Custom</b> Domain</li>
+                        <li class='w3-padding-16'>
+                            <b>10</b> Pages</li>
+                        <li class='w3-padding-16'>
+                            <b>Logo</b> Design</li>
+                        <li class='w3-padding-16'>
+                            <b>Blog</b> Integration</li>
+
+                        <li class='w3-padding-16'>
+                            <h2 class='w3-wide'>$ 0</h2>
+                            <span class='w3-opacity'>per month web hosting</span>
+                        </li>
+                        <li class='w3-padding-16'>
+                            <span class='w3-opacity'>starting at</span>
+                            <h2 class='w3-wide'>
+                                <b>$ 950</b>
+                            </h2>
+
+                        </li>
+                        <li class='w3-charcoal-black w3-padding-24'>
+                            <a href='contact-me.html'>
+                                <roundButton class='roundButton roundButton1 w3-gr-green w3-hover-white w3-text-black'>
+                                    Contact Me
+                                </roundButton>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Footer Code-->
+    <footer id="main-content-bottom-margin">
+        <div class='w3-padding-32 w3-gr-dark-blue w3-text-gray-gr w3-center'>
+            <div class='w3-content w3-padding-medium'>
+                <h2>
+                    <span style='font-weight: bold;'>
+                        About Me
+                    </span>
+                </h2>
+                <p style='padding-bottom: 20px;'>
+                    <span style='font-size:20px;'>
+                        Hi all, my name is Goose Rayos. I do website design. Feel free to browse through my examples of what I can provide for your
+                        business or personal site. Let me know if you have any questions!
+                    </span>
+                </p>
+            </div>
+            <div class='w3-gr-dark-blue' style='padding:0px 32px;'>
+                <div class='gr-width-800' style='border-bottom:1px solid #3CC47C'></div>
+            </div>
+            <div class='w3-row w3-padding-16 w3-center' style='margin-top: 20px;'>
+                <div class='w3-quarter'>
+                    <div class="w3-center w3-padding-medium">
+                        <h2 style="padding-bottom: 12px;">
+                            <span style='font-weight: bold;'>
+                                Contact Info
+                            </span>
+                        </h2>
+                        <span style='font-size:20px'>
+                            <p>
+                                <i class='w3-xlarge fa fa-phone-square'></i>
+                                575-520-5199
+                            </p>
+                            <p>
+                                <i class='w3-xlarge fa fa-envelope'></i>
+                                gooserayos@gmail.com
+                            </p>
+                            <p>
+                                <i class='w3-xlarge fa fa-road'></i>
+                                Amarillo, TX
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class='w3-quarter'>
+                    <div class="w3-center w3-padding-medium">
+                        <h2>
+                            <span style='font-weight: bold;'>
+                                Links
+                            </span>
+                        </h2>
+                        <div class="w3-row">
+                            <div class="w3-half">
+                                <span style='font-size: 20px;'>
+                                    <p>
+                                        <a class='w3-hover-text-gr-green' href='/'>
+                                            Home
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a class='w3-hover-text-gr-green' href='about-me.html'>
+                                            About
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a class='w3-hover-text-gr-green' href='websites.html'>
+                                            Projects
+                                        </a>
+                                    </p>
+                                </span>
+                            </div>
+                            <div class="w3-half">
+                                <span style='font-size: 20px;'>
+                                    <p>
+                                        <a class='w3-hover-text-gr-green' href='services.html'>
+                                            Services
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a class='w3-hover-text-gr-green' href='https://blog.gooserayos.com/'>
+                                            Blog
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a class='w3-hover-text-gr-green' href='contact-me.html'>
+                                            Contact
+                                        </a>
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='w3-quarter'>
+                    <div class="w3-center w3-padding-medium">
+                        <h2 style="padding-bottom: 20px;">
+                            <span style='font-weight: bold;'>
+                                Send Message
+                            </span>
+                        </h2>
+                        <div class='w3-margin-bottom'>
+                            <div class='w3-center'>
+                                <form action='mailto:gooserayos@gmail.com' enctype='text/plain' method='post'>
+                                    <p>
+                                        <input class='w3-input roundCorner10' name='Name' placeholder='Your Name' type='text' />
+                                    </p>
+                                    <p>
+                                        <input class='w3-input roundCorner10' name='Email' placeholder='Your Email' type='text' />
+                                    </p>
+                                    <p>
+                                        <input class='w3-input roundCorner10' name='Subject' placeholder='Subject' type='text' />
+                                    </p>
+                                    <p>
+                                        <input class='w3-input roundCorner10' name='Message' placeholder='Message' type='text' />
+                                    </p>
+                                    <p class='w3-padding-16'>
+                                        <button class='w3-button w3-gr-green w3-text-black w3-hover-white' style='border-radius: 8px;        background-color: #ffffff;         border: none;         color: black;         padding: 16px;         text-align: center;         text-decoration: none;         display: inline-block;         font-size: 16px;         margin: 0px 0px;'
+                                            type='submit'>
+
+                                            Send Message
+                                            <i class='fa fa-paper-plane'>
+                                            </i>
+                                        </button>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='w3-quarter'>
+                    <div class="w3-center w3-padding-medium">
+                        <h2 style="padding-bottom: 8px;">
+                            <span style='font-weight: bold;'>
+                                Social
+                            </span>
+                        </h2>
+                        <div class='w3-xxxlarge'>
+                            <a href='https://www.facebook.com/gooserayos1' target="_blank">
+                                <i class='fa fa-facebook-official w3-hover-text-indigo'>
+                                </i>
+                            </a>
+                            <a href='https://www.instagram.com/gooserayos' target="_blank">
+                                <i class='fa fa-instagram w3-hover-text-pink'>
+                                </i>
+                            </a>
+                            <a href='https://www.pinterest.com/gooserayos' target="_blank">
+                                <i class='fa fa-pinterest-p w3-hover-text-gr-green'>
+                                </i>
+                            </a>
+                            <a href='https://www.twitter.com/gooserayos' target="_blank">
+                                <i class='fa fa-twitter w3-hover-text-light-blue'>
+                                </i>
+                            </a>
+                            <a href='https://www.linkedin.com/in/gustavorayos' target="_blank">
+                                <i class='fa fa-linkedin w3-hover-text-blue'>
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!--End of black background behind header image-->
+
+
+    <div class='w3-charcoal-black' id="footer">
+        <div class='w3-padding-24 w3-center'>
+            <a href='#home'>
+                <div class='w3-btn-floating w3-white w3-animate-hover-zoom'>
+                    <i class='w3-xlarge fa fa-arrow-up'></i>
+                </div>
+            </a>
+            <p>Powered by
+                <a class='w3-text-gr-green w3-hover-text-white' href='https://www.gooserayos.com/'>
+                    <span style="font-weight: bold;">Rayos Designs</span>
+                </a>.</p>
+        </div>
+    </div>
+    <!--End of Footer-->
+
+    <script>
+        //JQuery used to have smooth scrolling from section to section
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $('a').on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.getAttribute("href").indexOf("/p/") > -1) {
+                    //alert("hi");
+                }
+                else {
+                    if (this.hash !== '') {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+                        // Store hash
+                        var hash = this.hash;
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function () {
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                }
+            });
+        });
+    </script>
+
+<script>
+        window.sr = ScrollReveal();
+        sr.reveal('.rs-bottom', {
+          duration: 2000,
+          origin:'bottom'
+        });
+        sr.reveal('.rs-left', {
+          duration: 2000,
+          origin:'left',
+          distance: '300px',
+        });
+        sr.reveal('.rs-right', {
+          duration: 2000,
+          origin:'right',
+          distance: '300px',
+        });
+        sr.reveal('.rs-bottom-delay', {
+          duration: 2000,
+          delay: 2000,
+          origin:'bottom',
+        });
+        sr.reveal('.rs-1000', {
+          duration: 1000,
+          origin:'bottom',
+        });
+      </script>
+
+</body>
+
+</html>
